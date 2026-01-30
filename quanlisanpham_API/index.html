@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>📦 BẢNG QUẢN LÝ SẢN PHẨM</h2>
+
+<div class="controls">
+    <input type="text" id="search" placeholder="Tìm theo title...">
+
+    <select id="pageSize">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="20">20</option>
+    </select>
+
+    <button onclick="sortPriceAsc()">Giá ↑</button>
+    <button onclick="sortPriceDesc()">Giá ↓</button>
+    <button onclick="sortNameAsc()">Tên A–Z</button>
+    <button onclick="sortNameDesc()">Tên Z–A</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Hình</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+</table>
+
+<div class="pagination" id="pagination"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

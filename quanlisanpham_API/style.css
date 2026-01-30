@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+.controls input,
+.controls select,
+.controls button {
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 1 dòng trắng – 1 dòng đen */
+/* ============================
+   BẢNG 1 DÒNG ĐEN – 1 DÒNG TRẮNG
+=============================== */
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;   /* trắng */
+    color: #000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #000000;   /* đen */
+    color: #ffffff;
+}
+
+/* viền bảng */
+table, th, td {
+    border: 1px solid #999;
+}
+
+/* hình ảnh hiển thị đầy đủ */
+img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;   /* KHÔNG bị cắt hình */
+    background: #fff;
+    padding: 5px;
+}
+
