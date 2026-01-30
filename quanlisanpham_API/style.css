@@ -24,8 +24,6 @@ th, td {
     padding: 10px;
     text-align: center;
 }
-
-/* 1 dòng trắng – 1 dòng đen */
 /* ============================
    BẢNG 1 DÒNG ĐEN – 1 DÒNG TRẮNG
 =============================== */
@@ -53,4 +51,5 @@ img {
     background: #fff;
     padding: 5px;
 }
+
 
