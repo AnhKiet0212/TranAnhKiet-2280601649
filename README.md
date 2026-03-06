@@ -102,4 +102,3 @@ POST /api/users/disable
 |-------|------|----------|--------|---------|
 | name | String | Yes | Yes | - |
 | description | String | - | - | "" |
-
